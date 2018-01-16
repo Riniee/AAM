@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AAM ToDo</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/custom/lib-style.css">
+    <link rel="stylesheet" href="assets/css/custom/skins/_all-skins.min.css"> </head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels --><span class="logo-mini"><b>A</b>LT</span>
+                    <!-- logo for regular state and mobile devices --><span class="logo-lg text-uppercase"><img src="assets/images/custom/dashboard.png" alt="logo">abobe livecycle</span> </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->
+                        <li class="messages-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">preferences</a> </li>
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <li class="notifications-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">messages</a> </li>
+                        <!-- Tasks: style can be found in dropdown.less -->
+                        <li class="dropdown tasks-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">help<span class="caret"></span></button></a>
+                            <ul class="dropdown-menu">
+                                <li class="header">something</li>
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <!-- Task item --><a href="#">something</a> </li>
+                                        <!-- end task item -->
+                                        <li>
+                                            <!-- Task item --><a href="#">something</a> </li>
+                                        <!-- end task item -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="user user-menu"> <a href="#">logout</a> </li>
+                        <!-- Control Sidebar Toggle Button -->
+                        <li> <a href="#">welcome consult</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="active treeview">
+                        <a href="#"> <i class="fa fa-binoculars"></i> <span>search templates</span></i>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-files-o"></i> <span>drafts</span> <span>(2)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>consult-1</span><span>(12)</span> <i class="fa fa-angle-left pull-right"></i> </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i> show all</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>proof admin</span> <span>(1)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>proofreaders</span> <span>(2)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>reviewers</span> <span>(45)</span> </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html"> <i class="fa fa-user"></i> <span>typesetters</span> <span>(15)</span> </a>
+                    </li>
+                    <li>
+                        <a href="pages/mailbox/mailbox.html"> <i class="fa fa-user"></i> <span>mike gaetz</span> <span>(14)</span> </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+                <div class="wrapper-outer">
+                    <h3>Review</h3>
+                    <div class="wrapper-inner">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="nav-tabs-custom">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#taskDetails" data-toggle="tab">task details</a></li>
+                                        <li><a href="#form" data-toggle="tab">form</a></li>
+                                        <li><a href="#history" data-toggle="tab">history</a></li>
+                                        <li><a href="#attachments" data-toggle="tab">attachments<span>(0)</span></a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="active tab-pane" id="taskDetails">
+                                            <div class="task-details-wrapper">
+                                                <div class="inner">
+                                                    <div class="task-content">
+                                                        <h3 class="text-capitalize">review</h3>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>instructions</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <address>
+                                                        <h4 class="text-uppercase">proof to member</h4>
+                                                        <p><span>drive:<em>31-DEC-16</em></span> <span>format:<em>dlyd</em></span></p>
+                                                        <p><span>member:<em>4580154</em></span> <span>receipt:<em>dlyd</em></span></p>
+                                                        <p><span>doc:<em>prf</em></span> <span>rev:<em>none</em></span> <span>mem<em>msm</em></span></p>
+                                                        <p><span>city/st:<em>,pa</em></span></p>
+                                                        <p><span>publisher:<em></em></span></p>
+                                                        <p><span>name:<em>york daily</em></span></p>
+                                                        <p class="process-id"><span>process id:<em>5485454</em></span></p>
+                                                    </address>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>descriptions</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>deadline date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>creation date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>NOV 22,2016 - 12:25:56</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>update date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>JAN 22,2016 - 12:25:56</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>take id</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>415445</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>status</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>assigned</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <div class="task-content">
+                                                        <h3 class="text-capitalize">process details</h3>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>descriptions</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>changed the watched folder to frist magazine app folder</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>deadline date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>creation date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>NOV 22,2016 - 12:25:56</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>update date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>JAN 22,2016 - 12:25:56</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>process name</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>magazine workflow / published statement</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>process id</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>452855</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>process status</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>running</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="sub-heading"><h3 class="col-md-4">process variables</h3></div>
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>drive date</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>JAN 22,2016 - 12:25:56</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>group name</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>reviewers</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>member number</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>655476</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="block">
+                                                            <div class="col-md-4">
+                                                                <div class="left-sider">
+                                                                    <span>product type</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-8">
+                                                                <div class="right-sider">
+                                                                    <p>PS</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <!-- /.tab-pane -->
+                                        <div class="tab-pane" id="form"> tab-2</div>
+                                        <!-- /.tab-pane -->
+                                        <div class="tab-pane" id="history"> tab-3</div>
+                                        <!-- /.tab-pane -->
+                                        <div class="tab-pane" id="attachments"> tab-4</div>
+                                        <!-- /.tab-pane -->
+                                    </div>
+                                    <!-- /.tab-content -->
+                                </div>
+                                <!-- /.nav-tabs-custom -->
+                            </div>
+                            <!-- /.col -->
+                            <div class="todo-fot-wrapper">
+                                                    <ul>
+                                <li><div class="button-wrapper"><i class="fa fa-lock" style="color:#b67815;"></i><span>lock</span></div></li>
+                                <li><div class="button-wrapper"><i class="fa fa-share" style="color:#f3b701;"></i><span>forward</span></div></li>
+                                <li><div class="button-wrapper"><i class="fa fa-reply" style="color:#f3b701;"></i><span>return</span></div></li>
+                                <li><div class="button-wrapper"><i class="fa fa-share-alt" style="color:#004592;"></i><span>share</span></div></li>
+                            </ul>
+                                                </div>
+                        </div>
+                        <!-- /.row -->
+                        
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery 2.1.4 -->
+    <script src="libraries/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="libraries/bootstrap.min.js"></script>
+    <!-- App -->
+    <script src="assets/js/app.min.js"></script>
+</body>
+
+</html>

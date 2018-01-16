@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AAM DashBoard</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="assets/css/custom/lib-style.css">
+    <link rel="stylesheet" href="assets/css/custom/skins/_all-skins.min.css"> </head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <!-- mini logo for sidebar mini 50x50 pixels --><span class="logo-mini"><b>A</b>LT</span>
+                    <!-- logo for regular state and mobile devices --><span class="logo-lg text-uppercase"><img src="assets/images/custom/dashboard.png" alt="logo">abobe livecycle</span> </a>
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->
+                        <li class="messages-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">preferences</a> </li>
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <li class="notifications-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">messages</a> </li>
+                        <!-- Tasks: style can be found in dropdown.less -->
+                        <li class="dropdown tasks-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">help<span class="caret"></span></button></a>
+                            <ul class="dropdown-menu">
+                                <li class="header">something</li>
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <!-- Task item --><a href="#">something</a> </li>
+                                        <!-- end task item -->
+                                        <li>
+                                            <!-- Task item --><a href="#">something</a> </li>
+                                        <!-- end task item -->
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="user user-menu"> <a href="#">logout</a> </li>
+                        <!-- Control Sidebar Toggle Button -->
+                        <li> <a href="#">welcome consult</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="active treeview">
+                        <a href="#"> <i class="fa fa-binoculars"></i> <span>search templates</span></i>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-files-o"></i> <span>drafts</span> <span>(2)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>consult-1</span><span>(12)</span> <i class="fa fa-angle-left pull-right"></i> </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i> show all</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>proof admin</span> <span>(1)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>proofreaders</span> <span>(2)</span> </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#"> <i class="fa fa-user"></i> <span>reviewers</span> <span>(45)</span> </a>
+                    </li>
+                    <li>
+                        <a href="pages/calendar.html"> <i class="fa fa-user"></i> <span>typesetters</span> <span>(15)</span> </a>
+                    </li>
+                    <li>
+                        <a href="pages/mailbox/mailbox.html"> <i class="fa fa-user"></i> <span>mike gaetz</span> <span>(14)</span> </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Main content -->
+            <section class="content">
+                <div class="wrapper-outer">
+                    <h3>consult-1</h3>
+                    <div class="wrapper-inner">
+                        <div class="filter-section">
+                            <ul>
+                                <li> <span class="text-capitalize">filter</span>
+                                    <input type="text"> </li>
+                                <li>
+                                    <div class="button-wrapper"><i class="fa fa-filter" style="color:#1d5592;"></i></div>
+                                </li>
+                                <li>
+                                    <div class="button-wrapper"><i class="fa fa-ban" style="color:#b94260;"></i></div>
+                                </li>
+                                <li>
+                                    <div class="button-wrapper"><i class="fa fa-list-ul" style="color:#545454;"></i></div>
+                                    <div class="dropdown-wrapper">
+                                        <div class="inner">
+                                            <div class="header"> manage column headings </div>
+                                            <div class="manage-cnt">
+                                                <p>Select columns to be displayed and set their display order</p>
+                                                <div class="button-group text-right">
+                                                    <ul style="padding:0;">
+                                                        <li>
+                                                            <div class="button-wrapper"><i class="fa fa-arrow-up" style="color:#297dbd;"></i></div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="button-wrapper"><i class="fa fa-arrow-down" style="color:#297dbd;"></i></div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="manage-checkbox-wrapper">
+                                                    <div class="inner">
+                                                        <div class="manage-checkbox-content">
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">process name</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">task name</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">instructions</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">priority</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">deadline date</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">creation date</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">current assignment date</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">owner</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">description</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">locked</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">action required</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">attachments allowed</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">start task</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">task visibility</label>
+                                                            </div>
+                                                            <div class="block">
+                                                                <label>
+                                                                    <input name="user_role[]" value="process name" type="checkbox">next remainder</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="button-group text-right">
+                                                    <ul style="padding:0;">
+                                                        <li>
+                                                            <div class="button-wrapper" style="font-size: 14px;font-weight: 600;padding: 8px 10px;text-transform: capitalize;width: auto;">reset default</div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="button-group text-right">
+                                                    <ul style="padding:0;">
+                                                        <li>
+                                                            <div class="button-wrapper" style="font-size: 14px;font-weight: 600;padding: 8px 10px;text-transform: capitalize;width: auto;">OK</div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="button-wrapper" style="font-size: 14px;font-weight: 600;padding: 8px 10px;text-transform: capitalize;width: auto;">cancel</div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                </ul>
+                        </div>
+                        <p>Display the 13 items of 13</p>
+                        <!-- Main row -->
+                        <div class="row">
+                            <!-- Left col -->
+                            <div class="col-md-12">
+                                <!-- TABLE: LATEST ORDERS -->
+                                <div class="box box-info">
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="table-responsive table-scroll">
+                                            <table class="table no-margin dashboard">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th>process name</th>
+                                                        <th>task name</th>
+                                                        <th>instructions</th>
+                                                        <th>priority</th>
+                                                        <th>deadline date</th>
+                                                        <th>task id</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <ul class="icon">
+                                                                <li><i class="fa fa-clipboard" style="color:#f5c018;"></i></li>
+                                                                <li><i class="fa fa-lock" style="color:#b67815;"></i></li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>newspaper_workflow/published statement</td>
+                                                        <td>proof admin</td>
+                                                        <td> <address>
+                                                        <h4 class="text-uppercase">proof to member</h4>
+                                                        <p><span>drive:<em>31-DEC-16</em></span> <span>format:<em>dlyd</em></span></p>
+                                                        <p><span>member:<em>4580154</em></span> <span>receipt:<em>dlyd</em></span></p>
+                                                        <p><span>doc:<em>prf</em></span> <span>rev:<em>none</em></span> <span>mem<em>msm</em></span></p>
+                                                        <p><span>city/st:<em>,pa</em></span></p>
+                                                        <p><span>publisher:<em></em></span></p>
+                                                        <p><span>name:<em>york daily</em></span></p>
+                                                        <p class="process-id"><span>process id:<em>5485454</em></span></p>
+                                                    </address></td>
+                                                        <td>normal</td>
+                                                        <td></td>
+                                                        <td>5546</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <ul class="icon">
+                                                                <li><i class="fa fa-clipboard" style="color:#f5c018;"></i></li>
+                                                                <li><i class="fa fa-lock" style="color:#b67815;"></i></li>
+                                                            </ul>
+                                                        </td>
+                                                        <td>newspaper_workflow/published statement</td>
+                                                        <td>proof admin</td>
+                                                        <td> <address>
+                                                        <h4 class="text-uppercase">proof to member</h4>
+                                                        <p><span>drive:<em>31-DEC-16</em></span> <span>format:<em>dlyd</em></span></p>
+                                                        <p><span>member:<em>4580154</em></span> <span>receipt:<em>dlyd</em></span></p>
+                                                        <p><span>doc:<em>prf</em></span> <span>rev:<em>none</em></span> <span>mem<em>msm</em></span></p>
+                                                        <p><span>city/st:<em>,pa</em></span></p>
+                                                        <p><span>publisher:<em></em></span></p>
+                                                        <p><span>name:<em>york daily</em></span></p>
+                                                        <p class="process-id"><span>process id:<em>5485454</em></span></p>
+                                                    </address></td>
+                                                        <td>normal</td>
+                                                        <td></td>
+                                                        <td>5546</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!-- /.table-responsive -->
+                                    </div>
+                                </div>
+                                <!-- /.box -->
+                            </div>
+                            <!-- /.col -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                </div>
+            </section>
+            <!-- /.content -->
+        </div>
+    </div>
+    <!-- ./wrapper -->
+    <!-- jQuery 2.1.4 -->
+    <script src="libraries/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="libraries/bootstrap.min.js"></script>
+    <!-- App -->
+    <script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
